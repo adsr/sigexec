@@ -1,7 +1,7 @@
 # sigexec
 
-sigexec `fork(2)`s a process and then waits for SIGUSR1 before `execvp(3)`ing
-the given command. I find this useful occasionally.
+sigexec forks a process and then waits for SIGUSR1 before exec-ing the given
+command. I find this useful occasionally.
 
 ### Synopsis
 
